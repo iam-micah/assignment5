@@ -23,9 +23,9 @@ function get_amicable() {
         }
     }
 
-    if (sum1 == num2) {
+    if (sum1 == num2 || num1 == num2) {
 
-        if (sum2 == num1 || num1 == num2) {
+        if (sum2 == num1) {
             document.getElementById("output").innerHTML = "The numbers are amicable <br/>";
         } else {
             document.getElementById("output").innerHTML = "The numbers are not amicable <br/>";
