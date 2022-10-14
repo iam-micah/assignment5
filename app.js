@@ -33,7 +33,7 @@ function get_amicable() {
         document.getElementById("output").innerHTML = "The numbers are not amicable <br/>";
     }
     document.getElementById("factor1").innerHTML = "The factors of " + num1 + " are " + array1 + ".<br/>";
-    document.getElementById("factor1").innerHTML = "The factors of " + num2 + " are " + array2 + ".<br/>";
+    document.getElementById("factor2").innerHTML = "The factors of " + num2 + " are " + array2 + ".<br/>";
 }
 
 function isAFactor(x, y) {
