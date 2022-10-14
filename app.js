@@ -25,18 +25,20 @@ function get_amicable() {
         }
 
         if (sum2 == num1) {
-            document.getElementById("output").innerHTML = "The numbers are amicable";
+            document.getElementById("output").innerHTML = "The numbers are amicable <br/>";
         } else {
-            document.getElementById("output").innerHTML = "The numbers are not amicable";
+            document.getElementById("output").innerHTML = "The numbers are not amicable <br/>";
         }
     } else {
-        document.getElementById("output").innerHTML = "The numbers are not amicable";
+        document.getElementById("output").innerHTML = "The numbers are not amicable <br/>";
     }
-
-    function isAFactor(x, y) {
-        if (y % x == 0) {
-            return true;
-        } 
-        return false;
-    }    
+    document.getElementById("factor1").innerHTML = "The factors of " + num1 + " are " + array1 + ".<br/>";
+    document.getElementById("factor1").innerHTML = "The factors of " + num2 + " are " + array2 + ".<br/>";
 }
+
+function isAFactor(x, y) {
+    if (y % x == 0) {
+        return true;
+    } 
+    return false;
+}    
