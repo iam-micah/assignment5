@@ -15,14 +15,15 @@ function get_amicable() {
         }
     }
 
-    if (sum1 == num2) {
-        for (let i = 1; i < num2; i++) {
-            if (isAFactor(i, num2)) {
-                array2.push(i);
-                console.log(array2);
-                sum2 += i;
-            }
+    for (let i = 1; i < num2; i++) {
+        if (isAFactor(i, num2)) {
+            array2.push(i);
+            console.log(array2);
+            sum2 += i;
         }
+    }
+
+    if (sum1 == num2) {
 
         if (sum2 == num1) {
             document.getElementById("output").innerHTML = "The numbers are amicable <br/>";
