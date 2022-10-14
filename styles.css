@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:wght@700&display=swap');
+
+body {
+    background-color: #666;
+    text-align: center;
+    font-family: Poppins,  'Ubuntu', sans-serif;
+    font-style: none;
+    font-weight: 600;
+    font-size: 30px;
+    color: #6d659b;
+    -webkit-text-stroke: 1.5px #000000;
+    margin: 40px auto;
+}
+
+h1 {
+    color: #0026ff;
+    /* border: 2px solid #000000; */
+    margin: 100px 40px;
+    background-color: #fff;
+}
+
+input {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 30px;
+    width: 500px;
+}
+
+#output {
+    display: block;
+    color: #fff;
+}
